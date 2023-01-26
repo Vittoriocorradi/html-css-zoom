@@ -28,14 +28,28 @@ HEADER
 ------
 */
 
+header {
+    height: 40px;
+    background-color: #000000;
+}
+
 /*
 ------
 MAIN
 ------
 */
 
+main {
+    height: calc(100vh - 110px);
+}
+
 /*
 ------
 FOOTER
 ------
 */
+
+footer {
+    height: 70px;
+    background-color: #222222;
+}
