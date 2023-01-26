@@ -41,9 +41,8 @@ a {
     display: flex;
 }
 
-.controls,
-.functions {
-    flex-grow: 1;
+.exit-btn {
+    max-width: 15%;
 }
 
 footer .btn {
@@ -53,6 +52,7 @@ footer .btn {
     border: 0;
     font-size: inherit;
     margin-left: 10px;
+    cursor: pointer;
 }
 
 footer .symbol {
@@ -125,7 +125,6 @@ footer {
     background-color: #222222;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
 }
 
 .symbol-name {
@@ -143,3 +142,14 @@ footer {
 footer .functions .btn .green {
     color: #46ce00;
 }
+
+footer .exit-btn {
+    height: 100%;
+    background-color: #4a4a4a;
+    color: red;
+    padding: 20px;
+    font-size: inherit;
+    font-family: inherit;
+    cursor: pointer;
+}
+
