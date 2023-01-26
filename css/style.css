@@ -19,11 +19,11 @@ TYPO
 body {
     color: #fff;
     font-family: 'Roboto', sans-serif;
-    font-size: 12px;
+    font-size: 10px;
 }
 
 footer .symbol {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 /*
@@ -41,12 +41,18 @@ a {
     display: flex;
 }
 
-footer .controls .btn {
+.controls,
+.functions {
+    flex-grow: 1;
+}
+
+footer .btn {
     background-color: inherit;
     color: inherit;
     font-family: inherit;
     border: 0;
     font-size: inherit;
+    margin-left: 10px;
 }
 
 footer .symbol {
@@ -132,4 +138,8 @@ footer {
     margin-left: 10px;
     position: relative;
     bottom: 5px;
+}
+
+footer .functions .btn .green {
+    color: #46ce00;
 }
