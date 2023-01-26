@@ -71,19 +71,19 @@ MAIN
 main {
     background-color: #000;
     height: calc(100vh - 110px);
-    padding: 40px 90px 30px;
+    padding: 40px 40px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px 5px;
+    overflow: auto;
 }
 
 main .user {
-    width: 250px;
-    height: 150px;
+    width: 200px;
+    height: 100px;
     background-color: red;
     position: relative;
 }
-
-/* main .user .user-img {
-    width: 100%;
-} */
 
 main .user .user-name {
     position: absolute;
