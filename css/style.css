@@ -19,11 +19,11 @@ TYPO
 body {
     color: #fff;
     font-family: 'Roboto', sans-serif;
+    font-size: 12px;
 }
 
-header .visual,
-main .user .user-name {
-    font-size: 12px;
+footer .symbol {
+    font-size: 20px;
 }
 
 /*
@@ -35,6 +35,22 @@ COMMON
 a {
     color: inherit;
     text-decoration: none;
+}
+
+.flex {
+    display: flex;
+}
+
+footer .controls .btn {
+    background-color: inherit;
+    color: inherit;
+    font-family: inherit;
+    border: 0;
+    font-size: inherit;
+}
+
+footer .symbol {
+    margin-bottom: 5px;
 }
 
 /*
@@ -72,7 +88,6 @@ main {
     background-color: #000;
     height: calc(100vh - 110px);
     padding: 40px 40px 30px;
-    display: flex;
     flex-wrap: wrap;
     gap: 15px 5px;
     overflow: auto;
@@ -102,4 +117,19 @@ FOOTER
 footer {
     height: 70px;
     background-color: #222222;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.symbol-name {
+    display: inline-block;
+}
+
+.arrow {
+    display: inline-block;
+    vertical-align: super;
+    margin-left: 10px;
+    position: relative;
+    bottom: 5px;
 }
